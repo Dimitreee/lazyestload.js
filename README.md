@@ -1,4 +1,5 @@
-# lazyestload
+![image](https://rawgit.com/Paul-Browne/lazyestload.js/master/demo/images/lazyestload.png "Lazyestload.js logo")
+
 load images only when they are in (and remain in) the viewport
 
 ```html
