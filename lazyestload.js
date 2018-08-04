@@ -11,9 +11,9 @@
 
     // main function wrapper
 
-    function lazyload() {
+    function lazyestload() {
 
-        // all the images with class lazyload
+        // all the images with class lazyestload
 
         var images = document.querySelectorAll("img.lazyestload");
         var i = images.length;
@@ -40,7 +40,7 @@
                 // wait until the new image is loaded
 
                 images[i].addEventListener('load', function() {
-                    this.classList.remove("lazyload");
+                    this.classList.remove("lazyestload");
                 });
             }
         }
@@ -49,6 +49,6 @@
     // run on debounced scroll event and once on load
 
     _scroll(function() {
-        lazyload();
+        lazyestload();
     })();
 }();
