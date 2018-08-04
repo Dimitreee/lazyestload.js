@@ -15,7 +15,7 @@
 
         // all the images with class lazyload
 
-        var images = document.querySelectorAll("img.lazyload");
+        var images = document.querySelectorAll("img.lazyestload");
         var i = images.length;
 
         // loop de loop
