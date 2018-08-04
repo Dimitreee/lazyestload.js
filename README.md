@@ -1,6 +1,8 @@
 ![image](https://rawgit.com/Paul-Browne/lazyestload.js/master/demo/images/lazyestload.png "Lazyestload.js logo")
 
-load images only when they are in (and remain in) the viewport
+load images only when they are in (and remain in) the viewport. 
+
+in only about 350 bytes of javascript :scream:
 
 ```html
   <img class="lazyestload" src="images/placeholder/sunset.jpg" data-src="images/sunset.jpg" >
